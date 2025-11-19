@@ -16,13 +16,26 @@
 
       body {
         width: 1200px;
+
         img {
-         
+
           width: 1200px;
-          height: 450px
+          height: 700px
         }
 
-        
+        .container3 {
+          position: relative;
+          text-align: center;
+          color: white;
+        }
+
+      
+        .top-left {
+          position: absolute;
+          top: 8px;
+          left: 16px;
+        }
+
 
         .container2 {
           grid-template-columns: 30% 30% 30%;
@@ -54,12 +67,12 @@
         }
 
         h1 {
-          font-size: 50px;
+          font-size: 20px;
         }
 
         h2 {
           font-family: "Inter";
-          font-size: 50px;
+          font-size: 40px;
 
 
         }
@@ -68,16 +81,6 @@
           font-family: "Montserrat";
           font-size: 30px;
 
-        }
-
-        button {
-          background: black;
-          color: white;
-          padding: 15px 40px;
-          border-radius: 10px;
-          font-size: 18px;
-          cursor: pointer;
-          border: none;
         }
 
         footer {
@@ -93,11 +96,35 @@
         #section4 {
           height: 700px;
         }
-        
-        #section0{
-          height: 200px;
+
+        #section0 {
+          height: 700px;
+
+          h2 {
+            text-align: left;
+            margin-top: -50px;
+            margin-left: 10px;
           }
-        
+
+          p {
+            text-align: left;
+            margin-top: -20px;
+            margin-left: 10px;
+          }
+
+          button {
+            background: white;
+            color: black;
+            padding: 15px 40px;
+            border-radius: 10px;
+            font-size: 18px;
+            cursor: pointer;
+            border: none;
+            margin-left: -700px;
+          }
+
+        }
+
         #section1 {
           margin: 80px;
           background-color: white;
@@ -136,7 +163,8 @@
 
           img {
             margin-top: 190px;
-            width: 450px;
+            width: 500px;
+            height: 500px;
           }
 
           background-color: white;
@@ -149,31 +177,24 @@
     </style>
   </head>
   <body>
-        <header>
-          <h1>Eric Okereke</h1>
-        </header>
-      <div class="container">
-        <div class="left-column">
-          <img src="Hand and iPhone 16 Pro.png
-">
-        </div>
-        <div class="right-column">
-          <h2>
-            About me
-          </h2>
+    <header>
+      <h1>Eric Okereke</h1>
+    </header>
+    <div id="section0">
+      <div class="container3">
+        <img src="iPhone 16 Pro Max - 1.jpg">
+        <div class="top-left">
           <p>
-            Hey, I’m Eric, a designer who’s just as passionate about creating meaningful visual experiences as I am about staying active and leveling up in real life.
+            Hey, I’m Eric, a designer who’s just as<br>passionate about creating meaningful visual experiences<br> as I am about staying active and leveling up in real life.
           </p>
-          <div class="right-column">
+          <div class="button">
             <a href="#section1"><button>
-                Learn More
-              </button></a>
-            <a href=""><button>
                 Projects
               </button></a>
           </div>
         </div>
       </div>
+    </div>
 
     <div id="section1">
       <div class="left-column">
@@ -208,22 +229,22 @@
         </div>
       </div>
     </div>
-    
-      <div id="section3">
-        <div class="left-column">
-          <header>TRANSIT PLUS+</header>
-          <h2>
-            About Project
-          </h2>
-          <p>
-            Hey, I’m Eric, a designer who’s just as passionate about creating meaningful visual experiences as I am about staying active and leveling up in real life.
-          </p>
 
-        </div>
-        <div class="right-column">
-          <img src="BG photo.jpg
-">
-        </div>
+    <div id="section3">
+      <div class="left-column">
+        <header>TRANSIT PLUS+</header>
+        <h2>
+          About Project
+        </h2>
+        <p>
+          Hey, I’m Eric, a designer who’s just as passionate about creating meaningful visual experiences as I am about staying active and leveling up in real life.
+        </p>
+
       </div>
+      <div class="right-column">
+        <img src="BG photo.jpg
+">
+      </div>
+    </div>
   </body>
 </html>
