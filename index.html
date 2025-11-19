@@ -1,6 +1,5 @@
 <!DOCTYPE html>
 <html lang="EN-CA">
-<body>
 <head>
 <style>
   html {
@@ -9,26 +8,26 @@
   
   body {
     width: 1200px;
-  }
-  
-  
-  .container {
+    .container {
         grid-template-columns: 30% 50%;
         column-gap: 250px;
         display: grid;
       }
   .container2 {
-        grid-template-columns: 30% 50%;
-        column-gap: 250px;
+        grid-template-columns: 30% 30% 30%;
+        column-gap: 50px;
         display: grid;
+    img{
+      width: 350px;
+      height: 400px;
+    }
   }
-      header {
+  header {
         font-family: "Inter";
         background: black;
         color: white;
         padding: 30px;
         width: 1200px;
-
       }
 
       img {
@@ -71,40 +70,56 @@
         color: black;
         padding: 30px;
       }
-  
-  body {
+    #section0, #section1, #section2, #section3, #section4 {
+  height: 500px;  
   }
-  #section0, #section1, #section2, #section3, #section4 {
-  height: 700px;  
-  }
+   
   
   #section0 {
     background-color: white;
   }
   #section1 {
-    margin: 100px;
+    margin: 80px;
     background-color: white;
-    grid-template-columns: 30% 90%;
+    grid-template-columns: 50% 90%;
         column-gap: 120px;
         display: grid;
+    img{
+      margin-top: 180px;
+    }
   }
   #section2 {
-    background-color: white;
-     grid-template-columns: 30% 30% 30%;
-    display: grid;
-    column-gap: 190px;
-  
+  margin-top: 500px;
   }
     #section3 {
-    background-color: green;
+      header{
+        color: black;
+        text-align: center;
+       background: white;
+        font-size: 100px;
+      }
+      img{
+        margin-top: 190px;
+      }
+       margin: 200px;
+    background-color: white;
+    grid-template-columns: 50% 90%;
+        column-gap: 120px;
+        display: grid;
+      
   }
     #section4 {
     background-color: purple;
   }
+  }
+  
+  
   
   
 </style>
 </head>
+  <body>
+  <div>
    <div>
       <header>
         <h1>Eric Okereke</h1>
@@ -140,7 +155,10 @@
           About me
         </h2>
         <p>
-          Hey, I’m Eric, a designer who’s just as passionate about creating meaningful visual experiences as I am about staying active and leveling up in real life.
+        Hey, I’m Eric, a designer who’s just as passionate about creating meaningful visual experiences as I am about staying active and leveling up in real life.
+My journey into design started with curiosity and has grown into a deep appreciation for how visuals, interaction, and storytelling shape the way we experience the world. 
+Outside of design, you’ll probably find me at the gym, playing soccer, or diving into worlds like Cyberpunk 2077, Elden Ring, GTA V, or The Last of Us. I love how games blend art, sound, and interaction, the same creative principles that inspire my own approach to design.
+For me, design is about constant growth, pushing boundaries, learning from every challenge, and building experiences that connect with people.
         </p>
         
   </div>
@@ -149,7 +167,10 @@
    </div>
   
 </div>
+    
 <div id="section2">
+  <div class="container2">
+    
  <div class="right-column">
         <img src="Hand and iPhone 16 Pro.png">
 </div>
@@ -160,11 +181,21 @@
         <img src="Hand and iPhone 16 Pro.png">
 </div>
   </div>
+  </div>
 <div id="section3">
-Your amazing content goes here!
-</div>
-<div id="section4">
-Your amazing content goes here!
+   <div class="left-column">
+     <header>PROJECT NAME</header>
+        <h2>
+          About me
+        </h2>
+        <p>
+          Hey, I’m Eric, a designer who’s just as passionate about creating meaningful visual experiences as I am about staying active and leveling up in real life.
+        </p>
+        
+  </div>
+         <div class="right-column">
+        <img src="Hand and iPhone 16 Pro.png">
+   </div>
 </div>
 </body>
 </html>
