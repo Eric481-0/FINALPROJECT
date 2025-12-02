@@ -1,6 +1,7 @@
 <!DOCTYPE html>
 <html lang="EN-CA">
   <head>
+     <title>Eric Okereke</title>
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
@@ -8,7 +9,6 @@
     <link rel="preconnect" href="https://fonts.static.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
     <meta charset="UTF-8">
-    <title>Eric Okereke</title>
     <style>
       html {
         width: 1440px;
@@ -16,6 +16,8 @@
 
       body {
         width: 1200px;
+        margin: 0 auto;
+      }
 
 
         .container2 {
@@ -23,14 +25,26 @@
           grid-template-columns: 30% 30% 30%;
           column-gap: 50px;
           display: grid;
-          margin-top: 50px;
 
           img {
             width: 300px;
             height: 300px;
           }
         }
-
+        .container4 {
+          width: 1200px;
+          grid-template-columns: 30% 30% 30%;
+          column-gap: 50px;
+          display: grid;
+          margin-top: -200px;
+      }
+       .container5 {
+          width: 1200px;
+          grid-template-columns: 30% 30% 30%;
+          column-gap: 50px;
+          display: grid;
+          margin-top: -200px;
+      }
         .border {
           border: 1px solid black;
           border-radius: 10px;
@@ -56,8 +70,6 @@
         h2 {
           font-family: "Inter";
           font-size: 40px;
-
-
         }
 
         p {
@@ -67,49 +79,41 @@
         }
 
         footer {
-          font-family: "Inter";
+          p{
+            font-family: "Inter";
           font-size: 50px;
           color: black;
-          padding: 30px;
+          }
+          grid-template-columns: 50% 50%;
+          column-gap: 200px;
+          display: grid;
         }
 
         #section1,
-        #section2,
-        #section3,
-        #section4 {
+        #section2, {
           height: 700px;
         }
 
         #section0 {
-          margin: 120px;
+          
           height: 500px;
 
           p {
             text-align: center;
-            margin-top: -70px;
-            margin-left: 10px;
           }
           h2{
             text-align: center;
             font-family: "Inter";
           }
-
-          button {
-            background: white;
-            color: black;
-            padding: 15px 40px;
-            border-radius: 10px;
-            font-size: 18px;
-            cursor: pointer;
-            border: none;
-            margin-left: -700px;
+          img{
+            margin-left: 55px;
           }
-
         }
 
         #section1 {
+          margin-top: 70px;
           width: 1200px;
-          margin: 120px;
+         
           background-color: white;
           grid-template-columns: 50% 30%;
           column-gap: 60px;
@@ -126,8 +130,7 @@
 
         #section2 {
           height: 600px;
-          margin: 120px;
-          margin-top: 180px;
+          margin-top: -10px;
 
           header {
             color: black;
@@ -135,11 +138,14 @@
             background: white;
             font-size: 100px;
           }
+          img{
+            margin-top: 40px;
+          }
         }
 
         #section3 {
+          height: 1300px;
           width: 1200px;
-           margin: 120px;
 
           header {
             color: black;
@@ -155,14 +161,14 @@
             border: 1px solid #000;
             border-radius: 10px;
           }
+          ul{
+            font-family: "Montserrat";
+          font-size: 30px;
+          }
 
           background-color: white;
-          grid-template-columns: 50% 50%;
-          column-gap: 90px;
-          display: grid;
-
         }
-      }
+      
     </style>
   </head>
   <body>
@@ -177,16 +183,16 @@
         MY TOOLS
       </h2>
        <div class="container2">
-         <img src="Rectangle 100.jpg">
-         <img src="Rectangle 101.jpg">
-         <img src="Rectangle 99.jpg">   
+         <img src="Rectangle 100.jpg" >
+         <img src="Rectangle 101.jpg" >
+         <img src="Rectangle 99.jpg" >   
       </div>
           </div>
 
     <div id="section1">
       <div class="left-column">
         <h2>
-          About me
+          ABOUT ME
         </h2>
         <p>
           Hey, I’m Eric, a designer who’s just as passionate about creating meaningful visual experiences as I am about staying active and leveling up in real life.
@@ -217,16 +223,82 @@
       <div class="left-column">
         <header>TRANSIT PLUS+</header>
         <h2>
-          About Project
+          ABOUT PROJECT
         </h2>
         <p>
-          Hey, I’m Eric, a designer who’s just as passionate about creating meaningful visual experiences as I am about staying active and leveling up in real life.
+         The Transit App helps parents and students find accurate bus routes and stop information. It also introduces a community-based carpooling feature, giving families more flexible commuting options.
         </p>
+          <h2>
+            TRANSIT APP THOUGHT PROCESS 
+        </h2>
+<p>
+Understanding the user was a crucial part throughout the design process. As someone who uses public transport, I already had some personal insight on the matter. Having a transit app that allows for carpooling and school buses was an interesting challenge, but first I had to find out if this was actually a problem people cared about. After carrying out extensive research with the aid of surveys and online public forums, I was certain that this was a challenge that required a modern solution.
+        </p>
+        <h2>
+          CARPOOL SECTION
+        </h2>
 
-      </div>
+<p>
+First being the carpool section. I took inspiration from various car-riding apps like Uber and Lyft. As this was a time I was beginning to refine my design skills, an important lesson I learned was you don’t need to reinvent the wheel. Building on this I was able to begin creating the layout for the app.
+
+Building off the original transit app, I was able to integrate both the carpool and the school bus features.
+        </p>
+         <div class="container5">
+          <img src="Screen 1.png">
+          <img src="Screen 1.png">
+          <img src="Screen 1.png">
+        </div>
+        <h2>
+          THE GOAL
+        </h2>
+<p>
+Design a responsive, user-friendly app that:
+<ul>
+  <li>Provides accurate and real-time bus route and stop information.</li>
+
+<li>Enables safe and reliable community carpooling options.</li>
+
+<li>Reduces stress for parents and students by simplifying commuting logistics.</li>
+        </ul>
+
+        </p>
+        <h2>
+          USER RESEARCH
+        </h2>
+<p>
+I conducted surveys and interviews with parents, students, and school transportation coordinators to understand their challenges.
+
+Initial assumption: Users mainly wanted to find bus stops and track arrival times.
+Key insight: Many parents were equally (or more) interested in safe carpooling options due to unreliable bus schedules and distant stops.
+
+This shifted the design focus toward integrating a community carpooling feature alongside the bus route system.
+        </p>
+        <h2>
+         Key Pain Points 
+        </h2>
+<p>
+  <ul>
+    <li>No Real-Time Updates – Parents waiting in poor weather without knowing bus arrival times.</li>
+    <li>Inconvenient Stops – Bus stops placed too far from homes or in unsafe areas.</li>
+    <li>Carpooling Barriers – Families struggled to find trusted, safe carpooling options.</li>
+    <li>Outdated Routes – Confusion and missed pickups due to unmaintained schedule data.</li>
+      </ul>
+        </p>
+        <div class="container4">
+          <img src="Screen 1.png">
+          <img src="Screen 1.png">
+          <img src="Screen 1.png">
+        </div>
+    <footer>
+  <p>
+    Eric Okereke
+  </p>
       <div class="right-column">
-        <img src="BG photo.jpg
-">
+        <p>
+           2025 pending
+        </p>
+      </div>
+</footer>
       </div>
     </div>
   </body>
