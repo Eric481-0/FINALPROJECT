@@ -9,6 +9,7 @@
     <link rel="preconnect" href="https://fonts.static.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
     <meta charset="UTF-8">
+    <!--Class selector .fade-up and .fade-up.show used for fade up animations. Code gotten from ChatGPT. Prompt: "How do I add a fade in animation for each time I scroll in html/css"-->
     <style>
       html {
         width: 1440px;
@@ -19,7 +20,6 @@
         margin: 0 auto;
         background-color: white;
       }
-
       .fade-up {
         opacity: 0;
         transform: translateY(25px);
@@ -248,7 +248,7 @@
       }
     </style>
   </head>
-  <!--Animation script from ChatGPT-->
+  <!--Animation script from ChatGPT. Prompt: "How do I add a fade in animation for each time I scroll in html/css"-->
   <script>
     document.addEventListener("DOMContentLoaded", () => {
       const elements = document.querySelectorAll(".fade-up");
